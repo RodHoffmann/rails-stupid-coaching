@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <h1>Stupid Coaching</h1>
+  <div class="bs-callout bs-callout-default">
+    <p><%= @answer %></p>
+    <p>-You</p>
+  </div>
+  <div class="bs-callout bs-callout-warning">
+    <p><%= @coach_answer %></p>
+    <p>-Your coach</p>
+  </div>
+  <%= link_to "Ask a new question", ask_path, style: "text-decoration: none" %>
+</div>
